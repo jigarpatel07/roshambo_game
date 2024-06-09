@@ -1,0 +1,59 @@
+table th,
+table tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+table th {
+    background-color: gray;
+}
+
+table tr {
+    background-color: rgb(172, 161, 161);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container p,
+.winnerText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.winnerText {
+    text-align: center;
+}
+
+.winnerText span {
+    background-color: green;
+    color: white;
+    padding: 8px;
+}
+
+.buttonDiv {
+    cursor: pointer;
+    display: flex;
+    align-Items: center;
+    gap: 16px;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    padding: 8px 12px
+}
